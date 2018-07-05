@@ -13,11 +13,8 @@
 		9454B1AE1EBC2D6D0079AE49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454B1AD1EBC2D6D0079AE49 /* ViewController.swift */; };
 		9454B1B31EBC2D6D0079AE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9454B1B21EBC2D6D0079AE49 /* Assets.xcassets */; };
 		9454B1B61EBC2D6D0079AE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9454B1B41EBC2D6D0079AE49 /* LaunchScreen.storyboard */; };
-		9454B1C11EBC2D6D0079AE49 /* JY_BannerViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454B1C01EBC2D6D0079AE49 /* JY_BannerViewDemoTests.swift */; };
-		9454B1CC1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454B1CB1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests.swift */; };
 		9454B1DB1EBC2E150079AE49 /* JY_BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454B1DA1EBC2E150079AE49 /* JY_BannerView.swift */; };
-		9454B1E51EBC59570079AE49 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9454B1E21EBC58D60079AE49 /* SnapKit.framework */; };
-		9454B1E61EBC59570079AE49 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9454B1E21EBC58D60079AE49 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2206CC8D4F432D0A201FFF4 /* Pods_JY_BannerViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B920AE1FD0E9923481E310B /* Pods_JY_BannerViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,27 +32,6 @@
 			remoteGlobalIDString = 9454B1A71EBC2D6D0079AE49;
 			remoteInfo = JY_BannerViewDemo;
 		};
-		9454B1E11EBC58D60079AE49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9454B1DC1EBC58D60079AE49 /* SnapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
-			remoteInfo = SnapKit;
-		};
-		9454B1E31EBC58D60079AE49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9454B1DC1EBC58D60079AE49 /* SnapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
-			remoteInfo = "SnapKit Tests";
-		};
-		9454B1E71EBC59570079AE49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9454B1DC1EBC58D60079AE49 /* SnapKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
-			remoteInfo = SnapKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9454B1E61EBC59570079AE49 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B920AE1FD0E9923481E310B /* Pods_JY_BannerViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JY_BannerViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7978FED93990957CA1E51400 /* Pods-JY_BannerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JY_BannerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JY_BannerViewDemo/Pods-JY_BannerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		94127FE21EC0199A003FEE76 /* BVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BVC.swift; sourceTree = "<group>"; };
 		94127FE41EC031A3003FEE76 /* BannerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerViewCell.swift; path = ../JY_BannerView/BannerViewCell.swift; sourceTree = "<group>"; };
 		9454B1A81EBC2D6D0079AE49 /* JY_BannerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JY_BannerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,13 +59,9 @@
 		9454B1B51EBC2D6D0079AE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9454B1B71EBC2D6D0079AE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9454B1BC1EBC2D6D0079AE49 /* JY_BannerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JY_BannerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9454B1C01EBC2D6D0079AE49 /* JY_BannerViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_BannerViewDemoTests.swift; sourceTree = "<group>"; };
-		9454B1C21EBC2D6D0079AE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9454B1C71EBC2D6D0079AE49 /* JY_BannerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JY_BannerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9454B1CB1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_BannerViewDemoUITests.swift; sourceTree = "<group>"; };
-		9454B1CD1EBC2D6D0079AE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9454B1DA1EBC2E150079AE49 /* JY_BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JY_BannerView.swift; path = ../JY_BannerView/JY_BannerView.swift; sourceTree = "<group>"; };
-		9454B1DC1EBC58D60079AE49 /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = ../JY_BannerView/SnapKit/SnapKit.xcodeproj; sourceTree = "<group>"; };
+		E919F3EBBA0243E5FC8DB3D9 /* Pods-JY_BannerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JY_BannerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JY_BannerViewDemo/Pods-JY_BannerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9454B1E51EBC59570079AE49 /* SnapKit.framework in Frameworks */,
+				B2206CC8D4F432D0A201FFF4 /* Pods_JY_BannerViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,10 +95,9 @@
 			children = (
 				9454B1D91EBC2D740079AE49 /* JY_BannerView */,
 				9454B1AA1EBC2D6D0079AE49 /* JY_BannerViewDemo */,
-				9454B1BF1EBC2D6D0079AE49 /* JY_BannerViewDemoTests */,
-				9454B1CA1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests */,
 				9454B1A91EBC2D6D0079AE49 /* Products */,
-				9454B1DC1EBC58D60079AE49 /* SnapKit.xcodeproj */,
+				E20D0B3B8581F7519A24C2C4 /* Pods */,
+				9C8E3451DC1384353C24A1B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,24 +124,6 @@
 			path = JY_BannerViewDemo;
 			sourceTree = "<group>";
 		};
-		9454B1BF1EBC2D6D0079AE49 /* JY_BannerViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				9454B1C01EBC2D6D0079AE49 /* JY_BannerViewDemoTests.swift */,
-				9454B1C21EBC2D6D0079AE49 /* Info.plist */,
-			);
-			path = JY_BannerViewDemoTests;
-			sourceTree = "<group>";
-		};
-		9454B1CA1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9454B1CB1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests.swift */,
-				9454B1CD1EBC2D6D0079AE49 /* Info.plist */,
-			);
-			path = JY_BannerViewDemoUITests;
-			sourceTree = "<group>";
-		};
 		9454B1D91EBC2D740079AE49 /* JY_BannerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,13 +133,21 @@
 			name = JY_BannerView;
 			sourceTree = "<group>";
 		};
-		9454B1DD1EBC58D60079AE49 /* Products */ = {
+		9C8E3451DC1384353C24A1B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9454B1E21EBC58D60079AE49 /* SnapKit.framework */,
-				9454B1E41EBC58D60079AE49 /* SnapKit Tests.xctest */,
+				4B920AE1FD0E9923481E310B /* Pods_JY_BannerViewDemo.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20D0B3B8581F7519A24C2C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E919F3EBBA0243E5FC8DB3D9 /* Pods-JY_BannerViewDemo.debug.xcconfig */,
+				7978FED93990957CA1E51400 /* Pods-JY_BannerViewDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,15 +157,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9454B1D01EBC2D6D0079AE49 /* Build configuration list for PBXNativeTarget "JY_BannerViewDemo" */;
 			buildPhases = (
+				F01C7EE05F1669E738C86693 /* [CP] Check Pods Manifest.lock */,
 				9454B1A41EBC2D6D0079AE49 /* Sources */,
 				9454B1A51EBC2D6D0079AE49 /* Frameworks */,
 				9454B1A61EBC2D6D0079AE49 /* Resources */,
 				9454B1E91EBC59570079AE49 /* Embed Frameworks */,
+				2BAF799E85DB218D35205EF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9454B1E81EBC59570079AE49 /* PBXTargetDependency */,
 			);
 			name = JY_BannerViewDemo;
 			productName = JY_BannerViewDemo;
@@ -253,11 +216,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = JY;
 				TargetAttributes = {
 					9454B1A71EBC2D6D0079AE49 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 27D3EV5NV3;
 						ProvisioningStyle = Automatic;
 					};
 					9454B1BB1EBC2D6D0079AE49 = {
@@ -283,12 +247,6 @@
 			mainGroup = 9454B19F1EBC2D6D0079AE49;
 			productRefGroup = 9454B1A91EBC2D6D0079AE49 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9454B1DD1EBC58D60079AE49 /* Products */;
-					ProjectRef = 9454B1DC1EBC58D60079AE49 /* SnapKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				9454B1A71EBC2D6D0079AE49 /* JY_BannerViewDemo */,
@@ -297,23 +255,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		9454B1E21EBC58D60079AE49 /* SnapKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SnapKit.framework;
-			remoteRef = 9454B1E11EBC58D60079AE49 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		9454B1E41EBC58D60079AE49 /* SnapKit Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SnapKit Tests.xctest";
-			remoteRef = 9454B1E31EBC58D60079AE49 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9454B1A61EBC2D6D0079AE49 /* Resources */ = {
@@ -341,6 +282,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BAF799E85DB218D35205EF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JY_BannerViewDemo/Pods-JY_BannerViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JY_BannerViewDemo/Pods-JY_BannerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01C7EE05F1669E738C86693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JY_BannerViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9454B1A41EBC2D6D0079AE49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -358,7 +338,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9454B1C11EBC2D6D0079AE49 /* JY_BannerViewDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9454B1CC1EBC2D6D0079AE49 /* JY_BannerViewDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +360,6 @@
 			isa = PBXTargetDependency;
 			target = 9454B1A71EBC2D6D0079AE49 /* JY_BannerViewDemo */;
 			targetProxy = 9454B1C81EBC2D6D0079AE49 /* PBXContainerItemProxy */;
-		};
-		9454B1E81EBC59570079AE49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			targetProxy = 9454B1E71EBC59570079AE49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,15 +385,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -443,12 +424,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -462,15 +444,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -487,44 +477,49 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		9454B1D11EBC2D6D0079AE49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E919F3EBBA0243E5FC8DB3D9 /* Pods-JY_BannerViewDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27D3EV5NV3;
 				INFOPLIST_FILE = JY_BannerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JY.JY-BannerViewDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		9454B1D21EBC2D6D0079AE49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7978FED93990957CA1E51400 /* Pods-JY_BannerViewDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27D3EV5NV3;
 				INFOPLIST_FILE = JY_BannerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JY.JY-BannerViewDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		9454B1D41EBC2D6D0079AE49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JY_BannerViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -538,7 +533,7 @@
 		9454B1D51EBC2D6D0079AE49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JY_BannerViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -552,7 +547,7 @@
 		9454B1D71EBC2D6D0079AE49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = JY_BannerViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JY.JY-BannerViewDemoUITests";
@@ -565,7 +560,7 @@
 		9454B1D81EBC2D6D0079AE49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = JY_BannerViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JY.JY-BannerViewDemoUITests";

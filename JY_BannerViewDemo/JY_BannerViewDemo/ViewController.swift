@@ -40,7 +40,7 @@ class ViewController: UIViewController {
             let btn = UIButton()
             btn.setTitle("下个controller", for: .normal)
             btn.setTitleColor(UIColor.black, for: .normal)
-            btn.addTarget(self, action:#selector(self.push2NextVC), for: .touchUpInside)
+            btn.addTarget(self, action:#selector(push2NextVC), for: .touchUpInside)
             return btn
         }()
         self.view.addSubview(pushBtn)
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         }
     }
 
-    func push2NextVC(){
+    @objc func push2NextVC(){
         let nextVC = BVC()
         self.navigationController?.pushViewController(nextVC, animated: true)
     }

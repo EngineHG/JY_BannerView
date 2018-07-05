@@ -1,0 +1,6 @@
+framework module Pods_JY_BannerViewDemo {
+  umbrella header "Pods-JY_BannerViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
